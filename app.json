@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Field Right",
+    "slug": "field-right",
+    "version": "1.3.6",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a49c3f9-a40f-4103-9021-a4a647281bc7"
+      }
+    }
+  }
+}

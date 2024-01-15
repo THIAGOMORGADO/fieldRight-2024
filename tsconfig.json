@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "jsx": "react-native",
+    // "baseUrl": "./src",
+    "rootDir": "./",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"],
+    "strict": true
+  },
+  "include": [
+    "node_modules/@types/**/*.d.ts",
+    "src/@types/**/*.ts",
+    "next-env.d.ts",
+    "postcss.config.js",
+    ".eslintrc.js"
+  ],
+  "exclude": ["typings/browser.d.ts", "typings/browser", "node_modules", "babel.config.js", "metro.config.ts", "jest.config.js", "webpack.config.ts"],
+  "extends": "./expo/tsconfig.base",
+}
